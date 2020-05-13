@@ -1,21 +1,21 @@
-.home {
+.container {
 
   .content-section {
     margin: 30px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
-   
-    
+      
     .text-content {
       width: 48%;
       padding-right: 1%;
+      .border-dash();
     }
 
     .img-content {
       width: 48%;
       padding-left: 1%;
+      .border-dash();
 
       img {
         border-radius: 10px;
@@ -25,11 +25,12 @@
 
   .inverse-content {
     padding-bottom: 30px;
-    border-bottom: 2px dashed @navigation-border;
+    .border-dash();
 
     .text-content {
       padding-left: 1%;
       padding-right: 0;
+     
     }
 
     .img-content {
@@ -48,14 +49,18 @@
   }
 
   .content-pick {
-    padding-top: 30px;
-    border-top: 2px dashed @navigation-border;
     display: flex;
     justify-content: space-between;
+    padding-top: 30px;
+    
 
     .destination {
       width: 30%;
       margin-bottom: 30px;
     }
   }
-}// home
+
+  .btn {
+    .btnSign();
+  }
+}// container

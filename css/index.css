@@ -1,1 +1,274 @@
-/* LESS needs to be processed */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Indie Flower', cursive;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+header .nav {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+header .nav h2 {
+  font-size: 6em;
+  margin: 0 100px 0 0;
+}
+header .nav div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+header .nav div a {
+  color: #4e4343;
+  margin: 20px 100px 50px 0 ;
+}
+header .imgbus {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top: 2.5px dashed #C0C0C0;
+}
+header .imgbus img {
+  width: 80%;
+}
+.footer {
+  width: 100%;
+  border-top: 2.5px dashed #C0C0C0;
+  background: #FFEBCD;
+}
+.footer p {
+  text-align: center;
+  color: #212529;
+  font-size: 1.6rem;
+  padding: 20px;
+}
+.container .content-section {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container .content-section .text-content {
+  width: 48%;
+  padding-right: 1%;
+  border-top: 2.5px dashed #C0C0C0;
+}
+.container .content-section .img-content {
+  width: 48%;
+  padding-left: 1%;
+  border-top: 2.5px dashed #C0C0C0;
+}
+.container .content-section .img-content img {
+  border-radius: 10px;
+}
+.container .inverse-content {
+  padding-bottom: 30px;
+  border-top: 2.5px dashed #C0C0C0;
+}
+.container .inverse-content .text-content {
+  padding-left: 1%;
+  padding-right: 0;
+}
+.container .inverse-content .img-content {
+  padding-right: 1%;
+  padding-left: 0;
+}
+.container .content-destination {
+  width: 75%;
+  margin: 0 auto 30px;
+}
+.container .content-destination img {
+  border-radius: 10px;
+}
+.container .content-pick {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.container .content-pick .destination {
+  width: 30%;
+  margin-bottom: 30px;
+}
+.container .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 11em;
+  height: 2.5em;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #17A2B8;
+  font-size: 1.8em;
+  border-radius: 15px;
+}
